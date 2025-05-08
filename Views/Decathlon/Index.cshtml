@@ -1,0 +1,17 @@
+@model DecathlonApp.Models.UploadViewModel
+
+<h2>Decathlon Competition Results</h2>
+
+<form asp-action="Upload" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="File">Upload CSV File</label>
+        <input type="file" class="form-control" asp-for="File" accept=".csv" />
+        <span asp-validation-for="File" class="text-danger"></span>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Process</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
