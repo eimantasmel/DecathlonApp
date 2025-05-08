@@ -19,3 +19,5 @@ A simple ASP.NET Core MVC application to process Decathlon competition results f
 ## Start the application
 
 ``` dotnet run```
+![Decathlon app fragment](https://i.snipboard.io/atJQT9.jpg)
+![Decathlon app results fragment](https://i.snipboard.io/fKbhmR.jpg)
